@@ -4,9 +4,9 @@ JBMiniProject is a project started by me and willing to bring Jelly Bean to Xper
 
 Supported Devices
 ------------------
-<*>Xperia X10 Mini </*>
-<*>Xperia X10 Mini Pro </*>
-<*>Xperia X8 </*>
+-Xperia X10 Mini
+-Xperia X10 Mini Pro
+-Xperia X8
 
 Getting Started
 ---------------
