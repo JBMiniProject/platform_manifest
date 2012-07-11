@@ -7,6 +7,10 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.com" />
+           
+  <remote  name="jbmp"
+           fetch="https://github.com/JBMiniProject/"
+           revision="ics" />  
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -29,13 +33,22 @@
   <project path="cts" name="CyanogenMod/android_cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
-  <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
-  <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
+  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
+  <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
+  
+  <!-- Devices supported by JBMiniProject  -->
+  <project path="device/semc/mimmi" name="android_device_semc_mimmi" revision="ics" remote="jbmp" />
+  <project path="device/semc/robyn" name="android_device_semc_robyn" revision="ics" remote="jbmp" />
+  <project path="device/semc/shakira" name="android_device_semc_shakira" revision="ics" remote="jbmp" />
+  
+  -->
+  <!-- These devices are not needed
+  <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
+  <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
+  <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
   <project path="device/moto/common" name="CyanogenMod/android_device_moto_common" />
   <project path="device/moto/stingray" name="CyanogenMod/android_device_moto_stingray" />
   <project path="device/moto/wingray" name="CyanogenMod/android_device_moto_wingray" />
@@ -46,7 +59,8 @@
   <project path="device/samsung/toro" name="CyanogenMod/android_device_samsung_toro" />
   <project path="device/samsung/torospr" name="CyanogenMod/android_device_samsung_torospr" />
   <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
-  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
+  -->
+  
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -259,7 +273,6 @@
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
@@ -289,10 +302,7 @@
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
-  <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
   <project path="pdk" name="CyanogenMod/android_pdk" />
