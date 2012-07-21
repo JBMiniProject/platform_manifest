@@ -8,6 +8,10 @@
            fetch=".."
            review="review.cyanogenmod.com" />
 
+  <remote  name="jbmp"
+           fetch="https://github.com/JBMiniProject/"
+           revision="jellybean" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -324,4 +328,6 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+
+  <project path="platform_manifest" name="platform_manifest" revision="jellybean" remote="jbmp" />
 </manifest>
