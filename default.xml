@@ -224,7 +224,7 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" revision="jellybean" remote="minicm" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="jellybean" remote="jbmp" />
@@ -233,7 +233,7 @@
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" revision="jellybean" remote="jbmp" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" revision="jellybean" remote="minicm" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
