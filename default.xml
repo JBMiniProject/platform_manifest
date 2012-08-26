@@ -12,6 +12,10 @@
            fetch="https://github.com/JBMiniProject/"
            revision="jellybean" />
 
+  <remote  name="minicm"
+           fetch="https://github.com/MiniCM/"
+           revision="jellybean" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
