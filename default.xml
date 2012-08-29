@@ -41,6 +41,7 @@
   <project path="device/semc/mimmi" name="android_device_semc_mimmi" revision="jellybean" remote="jbmp" />
   <project path="device/semc/robyn" name="android_device_semc_robyn" revision="jellybean" remote="jbmp" />
   <project path="device/semc/shakira" name="android_device_semc_shakira" revision="jellybean" remote="jbmp" />
+  <project path="device/semc/msm7x27-common" name="android_device_semc_msm7x27-common" revision="jellybean" remote="jbmp" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
