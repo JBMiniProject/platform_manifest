@@ -23,6 +23,10 @@
            remote="github"
            sync-j="4" />
 
+  <notice>
+    You successfully sync'd the JellyBean Mini Project's repos!
+  </notice>
+
   <project path="build" name="android_build" revision="jellybean" remote="jbmp">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
