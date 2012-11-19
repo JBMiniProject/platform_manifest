@@ -12,6 +12,10 @@
            fetch="https://github.com/JBMiniProject/"
            revision="jellybean" />
 
+  <remote  name="oxt"
+           fetch="https://github.com/OldXperiaTeam/"
+           revision="jellybean" />
+
   <remote  name="minicm"
            fetch="https://github.com/MiniCM/"
            revision="jellybean" />
