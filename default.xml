@@ -38,12 +38,12 @@
   <project path="android" name="CyanogenMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
-  <project path="bionic" name="android_bionic" revision="jellybean" remote="jbmp" />
+  <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery-jbmp" revision="jellybean" remote="jbmp" />
   <project path="cts" name="CyanogenMod/android_cts" />
-  <project path="dalvik" name="android_dalvik" revision="jellybean" remote="jbmp" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/semc/mimmi" name="android_device_semc_mimmi" revision="jellybean" remote="jbmp" />
