@@ -10,11 +10,13 @@
 
   <remote  name="jbmp"
            fetch="https://github.com/JBMiniProject/"
-           revision="jellybean" />
+           revision="jellybean"
+           review="review.cyanogenmod.com" />
 
   <remote  name="oxt"
            fetch="https://github.com/OldXperiaTeam/"
-           revision="jellybean" />
+           revision="jellybean"
+           review="review.cyanogenmod.com" />
 
   <remote  name="minicm"
            fetch="https://github.com/MiniCM/"
