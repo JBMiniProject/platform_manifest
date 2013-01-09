@@ -325,7 +325,7 @@
   <project path="system/core" name="android_system_core" revision="jellybean" remote="jbmp" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
-  <project path="system/netd" name="android_system_netd" revision="jellybean" remote="minicm" />
+  <project path="system/netd" name="android_system_netd" revision="jellybean" remote="jbmp" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
