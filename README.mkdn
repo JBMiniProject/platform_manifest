@@ -10,6 +10,8 @@ Supported Devices:
 
    -Xperia X8
 
+   -Samsung Galaxy Gio
+
 Getting Started
 ---------------
 
