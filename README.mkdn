@@ -2,6 +2,10 @@ JBMiniProject
 =============
 JBMiniProject is a project started by me and willing to bring Jelly Bean to Xperia 2010 Devices!
 
+All patches are welcome!
+
+Please use github or email minicmrom@gmail.com for any patches you want to contibute.
+
 Supported Devices:
 ------------------
    -Xperia X10 Mini
@@ -15,6 +19,8 @@ Supported Devices:
 Getting Started
 ---------------
 
+To get started with Android for JBMiniProject, you'll need to get familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
 To initialize your local repository using the JBMiniProject trees, use a command like this:
 
     repo init -u git://github.com/JBMiniProject/platform_manifest.git -b jellybean
@@ -22,6 +28,21 @@ To initialize your local repository using the JBMiniProject trees, use a command
 Then to sync up:
 
     repo sync
+
+Building JBMiniProject
+----------------------
+
+    . build/envsetup.sh
+    brunch DEVICENAME (for ex: brunch jbmp_shakira)
+    or simply
+    brunch (then choose from list)
+
+Devices:
+
+    shakira (X8/W8)
+    robyn (X10mini)
+    mimmi (X10minipro)
+
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
 
