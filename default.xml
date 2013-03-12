@@ -61,7 +61,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" revision="jellybean" remote="minicm" />
+  <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" />
   <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" />
   <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
@@ -319,7 +319,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/tools" name="CyanogenMod/android_prebuilts_tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/bluetooth" name="android_system_bluetooth" revision="jellybean" remote="minicm" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="android_system_core" revision="jellybean" remote="jbmp" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
