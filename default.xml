@@ -22,11 +22,6 @@
            fetch="https://github.com/MiniCM/"
            revision="jellybean" />
 
-  <remote  name="dave"
-           fetch="https://github.com/Daveee10/"
-           revision="master"
-           review="review.cyanogenmod.com" />
-
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -303,7 +298,7 @@
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="jb-dev" />
   <project path="prebuilt/linux-x86/toolchain/linaro-4.7.1" name="linaro-toolchain-4_7_1" revision="master" remote="oxt" />
   <project path="prebuilt/linux-x86/toolchain/linaro-4.7.3" name="linaro-toolchain-4.7.3" revision="master" remote="oxt" />
-  <project path="prebuilt/linux-x86/toolchain/linaro-4.8" name="Linaro-Toolchain-4.8" revision="master" remote="dave" />
+  <project path="prebuilt/linux-x86/toolchain/linaro-4.8" name="linaro-toolchain-4.8" revision="master" remote="oxt" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
