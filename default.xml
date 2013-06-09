@@ -251,7 +251,7 @@
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" revision="jellybean" remote="jbmp" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" revision="jellybean" remote="jbmp" />"
-  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />"
+  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" revision="jellybean" remote="jbmp" />"
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" revision="jellybean" remote="jbmp" />"
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
